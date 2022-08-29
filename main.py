@@ -37,7 +37,7 @@ for match in matches:
 
 df = pd.DataFrame({'date':date,'home_team': home_team, 'score':score, 'away_team':away_team})
 df.to_csv('football_data.csv',index=False)
-print(df)
+# print(df)
 
 
 time.sleep(10)
